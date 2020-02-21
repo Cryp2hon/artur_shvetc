@@ -1,0 +1,504 @@
+@media (min-width: 720px) and (max-width: 1400px) {
+
+	header {
+	  background: url(../img/fon.png);
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  background-size: 100%;
+	  background-color: #7dc2ff;
+	  height: 100%;
+	}
+
+	.top-panel {
+	  display: flex;
+	  justify-content: space-between;
+	  padding-top: 30px;
+	  margin-bottom: 10px;
+	  padding-right: 129px;
+	}
+	.top-panel p {
+	  text-align: left;
+	}
+	.social-links {
+	  text-align: left;
+	  margin-left: -300px;
+	  margin-top: -20px;
+	}
+	.social-links a {
+	  margin-right: 19px;
+	}
+	.header-right-button {
+	  margin-right: -120px;
+	  padding: 10px 30px;
+	}
+
+	.header-content-descript {
+	  margin-bottom: 31px;
+	}
+
+	.header-content-btn img {
+	  margin-left: 247px;
+	  margin-top: -105px;
+	}
+	.header-content-knopka {
+	  padding-top: 29px;
+	  padding-left: 60px;
+	  padding-right: 60px;
+	  padding-bottom: 35px;
+	  left: 100px;
+	}
+	.header-content .play {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  width: 75px;
+	  height: 75px;
+	  margin: auto;
+	  position: relative;
+	  margin-top: -220px;
+	  left: 400px;
+	}
+	main {
+	  height: 90vh;
+	}
+	.main-title {
+	  text-align: center;
+	  padding-top: 50px;
+	  margin-bottom: 100px;
+	}
+	.main-cards-block {
+	  display: flex;
+	  justify-content: space-around;
+	  width: 80%;
+	  margin: auto;
+	  margin-bottom: 100px;
+	}
+	.cards {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	  width: 212px;
+	  height: 260px;
+	  box-sizing: border-box;
+	  padding: 15px;
+	}
+	.cards i {
+	  position: absolute;
+	  margin-left: -100px;
+	  margin-top: 100px;
+	}
+	.cards img {
+	  padding-top: 15px;
+	}
+	.main-2 {
+	  background: url(../img/fon_for2.png);
+	  background-color: #7dc2ff;
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  background-size: cover;
+	  height: 100vh;
+	  margin-top: -5px;
+	  margin-bottom: 7px;
+	}
+	.main-2-title {
+	  margin-bottom: 50px;
+	}
+	.main-2-content {
+	  display: flex;
+	  justify-content: center;
+	  padding-top: 50px;
+	  margin-bottom: 75px;
+	}
+	.main-2-content-bloks {
+	  display: flex;
+	  vertical-align: center;
+	}
+	.main-2-content-bloks img {
+	  margin-right: 20px;
+	  max-height: 125px;
+	}
+	.main-2-content-bloks p {
+	  margin-top: 10px;
+	}
+	.forma {
+	  padding: 50px 20px;
+	  text-align: center;
+	  max-width: 75%;
+	  margin: auto;
+	  border-radius: 15px;
+	}
+	.forma h6 {
+	  margin-bottom: 10px;
+	}
+	.forma form p {
+	  width: 60%;
+	  margin: auto;
+	  margin-bottom: 50px;
+	}
+	.forma form input {
+	  padding: 20px 35px;
+	  border-radius: 50px;
+	  text-align: center;
+	  margin-right: 10px;
+	  margin-bottom: 10px;
+	}
+	.forma form button {
+	  padding: 20px 35px;
+	}
+	.main-3{
+	  margin-top: -15px;
+	  padding-top: 30px;
+
+	}
+	.main-3-content-title {
+	  text-align: center; 
+	}
+	.main-3-content-title p{
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.content-blocks {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-around;
+	  margin-bottom: 120px;
+	}
+	.content-blocks-item {
+	  display: flex;
+	  justify-content: center;
+	}
+	.content-blocks-item img {
+	  margin-right: 30px;
+	  max-height: 125px;
+	}
+	.content-blocks-item-text {
+	  margin-top: 10px;
+	  display: flex;
+	  flex-direction: column;
+	}
+	.feedback {
+	  background: url(../img/fon-3.png);
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  height: 100vh;
+	  margin-bottom: 100px;
+	}
+	.feedback-content-title {
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.feedback-content-cards {
+	  display: flex;
+	  justify-content: space-around;
+	}
+	.feedback-carta {
+	  width: 330px;
+	  height: 158px;
+	  margin: auto;
+	  display: flex;
+	  align-items: center;
+	  margin-bottom: 100px;
+	}
+	.feedback-carta button {
+	  margin: auto;
+	  padding: 15px;;
+	  display: flex;
+	  position: relative;
+	}
+	.feedback-carta .fa {
+	  position: relative;
+	  margin-left: 5px;
+	}
+	.portfolio-content-title {
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.portfolio-content-cards {
+	  display: grid;
+	  grid-template-columns: 2fr 2fr;
+	  grid-template-rows: 300px;
+	}
+	.portfolio-content-cards-karta {
+	  min-width: 250px;
+	  min-height: 250px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
+      align-items: center;
+	}
+	footer .footer {
+	  padding-top: 270px;
+	  display: grid;
+	  text-align: left;
+	  grid-template-rows: 30px;  
+	  justify-content: left;
+	  margin-left: 100px;
+	}
+	footer .footer-items {
+	  display: flex;
+	  justify-content: left;
+	}
+	footer .footer-items h6 {
+	  margin-right: 20px;
+
+	}
+	footer .footer-items .fa {
+	  margin-right: 20px;
+	}
+}
+@media (max-width: 768px) and (max-width: 1300px)  {
+
+	.containers {
+	  width: 97%;
+	  margin: auto;
+	}
+	header {
+	  background: url(../img/fon.png);
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  background-size: 100%;
+	  background-color: #7dc2ff;
+	  height: 530px;
+	}
+
+	.top-panel {
+	  display: flex;
+	  justify-content: space-between;
+	  padding-top: 30px;
+	  margin-bottom: 10px;
+	  padding-right: 129px;
+	}
+	.top-panel p {
+	  text-align: left;
+	}
+	.social-links {
+	  text-align: left;
+	  margin-left: -300px;
+	  margin-top: -20px;
+	}
+	.social-links a {
+	  margin-right: 19px;
+	}
+	.header-right-button {
+	  margin-right: -120px;
+	  padding: 10px 30px;
+	}
+
+	.header-content-descript {
+	  margin-bottom: 31px;
+	}
+
+	.header-content-btn img {
+	  margin-left: 247px;
+	  margin-top: -105px;
+	}
+	.header-content-knopka {
+	  padding-top: 29px;
+	  padding-left: 60px;
+	  padding-right: 60px;
+	  padding-bottom: 35px;
+	  left: 100px;
+	}
+	.header-content .play {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  width: 75px;
+	  height: 75px;
+	  margin: auto;
+	  position: relative;
+	  margin-top: -220px;
+	  left: 400px;
+	}
+	main {
+	  height: 90vh;
+	}
+	.main-title {
+	  text-align: center;
+	  padding-top: 50px;
+	  margin-bottom: 100px;
+	}
+	.main-cards-block {
+	  display: flex;
+	  justify-content: space-around;
+	  width: 80%;
+	  margin: auto;
+	  margin-bottom: 100px;
+	}
+	.cards {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	  width: 212px;
+	  height: 260px;
+	  box-sizing: border-box;
+	  padding: 15px;
+	}
+	.cards i {
+	  position: absolute;
+	  margin-left: -100px;
+	  margin-top: 100px;
+	}
+	.cards img {
+	  padding-top: 15px;
+	}
+	.main-2 {
+	  background: url(../img/fon_for2.png);
+	  background-color: #7dc2ff;
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  background-size: cover;
+	  height: 100vh;
+	  margin-top: -5px;
+	  margin-bottom: 7px;
+	}
+	.main-2-title {
+	  margin-bottom: 50px;
+	}
+	.main-2-content {
+	  display: flex;
+	  justify-content: center;
+	  padding-top: 50px;
+	  margin-bottom: 75px;
+	}
+	.main-2-content-bloks {
+	  display: flex;
+	  vertical-align: center;
+	}
+	.main-2-content-bloks img {
+	  margin-right: 20px;
+	  max-height: 125px;
+	}
+	.main-2-content-bloks p {
+	  margin-top: 10px;
+	}
+	.forma {
+	  padding: 50px 20px;
+	  text-align: center;
+	  max-width: 75%;
+	  margin: auto;
+	  border-radius: 15px;
+	}
+	.forma h6 {
+	  margin-bottom: 10px;
+	}
+	.forma form p {
+	  width: 60%;
+	  margin: auto;
+	  margin-bottom: 50px;
+	}
+	.forma form input {
+	  padding: 20px 35px;
+	  border-radius: 50px;
+	  text-align: center;
+	  margin-right: 10px;
+	  margin-bottom: 10px;
+	}
+	.forma form button {
+	  padding: 20px 35px;
+	}
+	.main-3{
+	  margin-top: -15px;
+	  padding-top: 30px;
+
+	}
+	.main-3-content-title {
+	  text-align: center; 
+	}
+	.main-3-content-title p{
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.content-blocks {
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-around;
+	  margin-bottom: 120px;
+	}
+	.content-blocks-item {
+	  display: flex;
+	  justify-content: center;
+	}
+	.content-blocks-item img {
+	  margin-right: 30px;
+	  max-height: 125px;
+	}
+	.content-blocks-item-text {
+	  margin-top: 10px;
+	  display: flex;
+	  flex-direction: column;
+	}
+	.feedback {
+	  background: url(../img/fon-3.png);
+	  background-repeat: no-repeat;
+	  background-position: top center;
+	  height: 100vh;
+	  margin-bottom: 100px;
+	}
+	.feedback-content-title {
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.feedback-content-cards {
+	  display: flex;
+	  justify-content: space-around;
+	}
+	.feedback-carta {
+	  width: 330px;
+	  height: 158px;
+	  margin: auto;
+	  display: flex;
+	  align-items: center;
+	  margin-bottom: 100px;
+	}
+	.feedback-carta button {
+	  margin: auto;
+	  padding: 15px;;
+	  display: flex;
+	  position: relative;
+	}
+	.feedback-carta .fa {
+	  position: relative;
+	  margin-left: 5px;
+	}
+	.portfolio-content-title {
+	  text-align: center;
+	  margin-bottom: 50px;
+	}
+	.portfolio-content-cards {
+	  display: grid;
+	  grid-template-columns: 2fr 2fr;
+	  grid-template-rows: 300px;
+	}
+	.portfolio-content-cards-karta {
+	  min-width: 250px;
+	  min-height: 250px;
+	  margin: auto;
+	  display: flex;
+	  justify-content: center;
+      align-items: center;
+	}
+	footer .footer {
+	  padding-top: 270px;
+	  display: grid;
+	  text-align: left;
+	  grid-template-rows: 30px;  
+	  justify-content: left;
+	  margin-left: 100px;
+	}
+	footer .footer-items {
+	  display: flex;
+	  justify-content: left;
+	}
+	footer .footer-items h6 {
+	  margin-right: 20px;
+
+	}
+	footer .footer-items .fa {
+	  margin-right: 20px;
+	}
+}
